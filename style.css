@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'montserrat',sans-serif;
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item a:hover {
+    color: rgb(20, 219, 20);
+}
+.navbar-brand {
+    height: 50px;
+    width: 100px;
+}
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.search:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(20, 219, 20);
+    border-right: none;
+}
+.btn1 {
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+.bi-bag-check {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+.bi-bag-check:hover {
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler {
+    font-size: 20px;
+    color: black;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.main {
+    background: url(./Images/m1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Righteous', sans-serif;
+}
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn1:hover {
+    background-color: rgb(13, 172, 13);
+}
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color:rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+/* ------------------------------- */
+.about {
+    background: url(./Images/abut.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+}
+.about p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.welcome {
+    background-color: rgb(20, 219, 20);
+}
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i {
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+/* ========================== */
+
+.products h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+}
+.products p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.products p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star {
+    text-align: end;
+    color: orange;
+}
+.products .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.products .card-body{
+    border:1px dashed rgb(175, 172, 172);
+
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    columns: rgb(168, 162, 162);
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: al 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+}
+/* discount */
+.discount {
+    background:  rgb(20, 219, 20);
+    color: white;
+}
+.dbtn {
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4;
+}
+.dbtn:hover {
+    background-color: rgb(228, 228, 228);
+}
+/* store */
+.store h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+}
+.store p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+.store .card:hover .per1{
+    color: white;
+}
+/* contact */
+.contact{
+    background: url(./Images/cont.jpg) no-repeat;
+    background-size:cover ;
+    width: 100% ;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
